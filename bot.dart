@@ -20,6 +20,12 @@ void main(List<String> args) {
       continue;
     }
 
+    /// If [userChoice] is 0.
+    // Then exit.
+    if (userChoice == 0) {
+      break;
+    }
+
     // +1 Added for min Limit of 1.
     giveResult(userChoice, _choices);
 
